@@ -3,11 +3,12 @@
     <div class="wrap container">
     	<div class="row">
     		<div class="col-sm-5">
-    			<img src="http://foreverjobless.com/wp-content/themes/foreverjobless/assets/img/vault.png" alt="Forever Jobless Valut" />
+    			<img src="http://masonlawlor.com/HDY/imgs/Blog.png" alt="Forever Jobless Valut" />
     		</div>
     		<div class="col-sm-7">
           <div class="bottom-opt">
-            <h2>Unlock the Forever Jobless Vault:</h2>
+            <h2>How dare you?</h2>
+            <p>Subscribe and I'll share the stories of how myself and others have dared.</p>
     				  <iframe id="AweberFormSubmitFrame" style="display: none" name="AweberFormSubmitFrame" src="about:blank"></iframe>
               <form target="AweberFormSubmitFrame" id="before_footer" method="post" class="af-form-wrapper" action="http://www.aweber.com/scripts/addlead.pl"  >
                 <div style="display: none;">
@@ -30,7 +31,7 @@
                     </div>
                   <div class="af-element buttonContainer">
                     <button name="submit" onClick="return _submit_form_footer(this.form); ga('send', 'event', 'optin', 'subscribe', 'footer optin');" class="btn btn-default btn-lg submit" type="submit" value="Submit" tabindex="501">
-                      <i class="icon-unlock" style="font-weight: bold;"></i> Unlock
+                      <i class="icon-unlock" style="font-weight: bold;"></i> Dare
                     </button>
                     <div class="af-clear"></div>
                   </div>
@@ -67,7 +68,7 @@
     <div class="wrap container">
       <div class="row">
         <div class="col-sm-12 bottom">
-          <!-- <fieldset>
+          <fieldset>
             <ul>
               <li><a href="#">Link</a></li> 
               <li><a href="#">Link</a></li> 
@@ -75,9 +76,8 @@
               <li><a href="#">Link</a></li> 
             </ul>
           </fieldset>
-          <p>Thank you for reading ForeverJobless.com</p> -->
           <br />
-          <center><img src="http://foreverjobless.com/wp-content/themes/foreverjobless/assets/img/foreverjobless-icon.png" /></center>
+          <center><img src="http://masonlawlor.com/HDY/imgs/Footer-48.png" /></center>
         </div>
       </div>
     </div>

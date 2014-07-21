@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><img src="http://foreverjobless.com/wp-content/uploads/2014/03/foreverjobless.png" alt="<?php bloginfo('name'); ?>" /></a>
+      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><img src="http://masonlawlor.com/HDY/imgs/Blog.png" alt="<?php bloginfo('name'); ?>" /></a>
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">

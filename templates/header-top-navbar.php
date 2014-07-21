@@ -7,7 +7,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><img src="http://foreverjobless.com/wp-content/uploads/2014/03/foreverjobless.png" alt="<?php bloginfo('name'); ?>" /></a>
+      <a class="navbar-brand" href="<?php echo home_url(); ?>/"><img src="http://masonlawlor.com/HDY/imgs/Blog-32.png" alt="<?php bloginfo('name'); ?>" /></a>
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">
@@ -30,8 +30,8 @@
     </center>
     <div class="col-sm-12">
       <center>
-      <h3>Want to create businesses that print money and operate passively?</h3>
-      <p>Sign Up Below and I'll Show You How</p>
+      <h3>How dare you?</h3>
+      <p>Subscribe and I'll share the stories of how myself and others have dared.</p>
       </center>
     </div>
   </div>
