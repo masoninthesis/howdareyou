@@ -20,7 +20,7 @@ require_once locate_template('/lib/custom.php');          // Custom functions
 
 function exclude_category($query) {
 if ( $query->is_home() ) {
-$query->set('cat', '-12');
+$query->set('cat', '-4');
 }
 return $query;
 }
