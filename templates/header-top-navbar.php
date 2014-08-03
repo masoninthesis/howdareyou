@@ -21,7 +21,7 @@
 </header>
 
 <div class="wrap container">
-  <div class="col-sm-10"><!-- Video -->
+  <div class="col-sm-10 col-sm-offset-1"><!-- Video -->
 	  <div class="row"> 
 	    <center>
 	      <iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/4j775txdig?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
@@ -30,7 +30,7 @@
     </div>
   </div> <!-- /Video -->
     
-  <div class="alert-header col-sm-10"><!-- Optin -->
+  <div class="alert-header col-sm-10 col-sm-offset-1"><!-- Optin -->
       <div class="row">
         <h4 class="optin-h4">Subscribe and I'll share the stories of how myself and others have dared.</h4>
       </div>
