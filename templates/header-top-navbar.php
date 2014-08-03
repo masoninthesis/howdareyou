@@ -28,14 +28,13 @@
       <script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
     </div>
     </center>
+    
+    <div class="alert-header ">
     <div class="col-sm-12">
       <center>
-      <h3>How dare you?</h3>
-      <p>Subscribe and I'll share the stories of how myself and others have dared.</p>
+      <h4>Subscribe and I'll share the stories of how myself and others have dared.</h4>
       </center>
     </div>
-  </div>
-</div>
 <div class="wrap container">
   <div class="row">
     <div class="col-sm-9 col-center">
@@ -84,6 +83,7 @@
         </script>
         <!-- /AWeber Web Form Generator 3.0 -->
 
+      </div>
       </div>
     </div>
   </div>
