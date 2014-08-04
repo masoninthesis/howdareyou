@@ -24,7 +24,7 @@
   <div class="col-sm-10 col-sm-offset-1"><!-- Video -->
 	  <div class="row"> 
 	    <center>
-	      <iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/4j775txdig?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
+	      <iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/5tl43fy1m9?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
 	      <script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
 	    </center>
     </div>
@@ -32,13 +32,19 @@
     
   <div class="alert-header col-sm-10 col-sm-offset-1"><!-- Optin -->
       <div class="row">
-        <h4 class="optin-h4">Subscribe and I'll share the stories of how myself and others have dared.</h4>
+        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4>
       </div>
 	  <div class="row">
-	    <div class="col-sm-9 col-center">
-	      <div class="top-optin">
+	      <div class="top-optin col-sm-offset-4">
+	      
+	      <!-- Mailchimp -->
+			<form class="form-inline" id="before_header" action="http://jackalopemedia.us5.list-manage2.com/subscribe/post?u=cb99d140b386588bfdc019c4e&amp;id=237c1bf3cd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
+			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">I Dare</button>
+			
+			</form> <!-- /Mailchimp -->
 	
-	        <!-- AWeber Web Form Generator 3.0 -->
+	        <!-- AWeber Web Form Generator 3.0 
 	        <form id="before_header" method="post" class="form-inline" action="http://www.aweber.com/scripts/addlead.pl"  >
 	        <div style="display: none;">
 	        <input type="hidden" name="meta_web_form_id" value="2074084490" />
@@ -52,10 +58,10 @@
 	
 	        <input type="hidden" name="meta_tooltip" value="" />
 	        </div>
-	        <!-- <div class="af-element"> -->
+	        <!-- <div class="af-element"> 
 	        <input class="form-control" id="awf_field-60198198" type="text" name="email" value="" tabindex="500" style="width: 75%;"  />
-	        <!-- </div> -->
-	        <button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">Subscribe</button>
+	        <!-- </div> 
+	        <button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">I Dare</button>
 	        <div class="af-clear"></div>
 	        </div>
 	        </div>
