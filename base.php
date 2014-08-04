@@ -89,55 +89,23 @@
           </center>
           <div class="modal-body">
 
-            <form method="post" class="af-form-wrapper" action="http://www.aweber.com/scripts/addlead.pl"  >
-            <div style="display: none;">
-            <input type="hidden" name="meta_web_form_id" value="1819965538" />
-            <input type="hidden" name="meta_split_id" value="" />
-            <input type="hidden" name="listname" value="foreverjobless" />
-            <input type="hidden" name="redirect" value="http://www.aweber.com/thankyou.htm?m=default" id="redirect_29afee66116af3d07d67125c0894fc70" />
+            <div class="alert-header col-sm-10 col-sm-offset-1"><!-- Optin -->
+      <div class="row">
+        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4>
+      </div>
+	  <div class="row">
+	      <div class="top-optin col-sm-offset-4">
+	      
+	      <!-- Mailchimp -->
+			<form class="form-inline" id="before_header" action="//howdareyou.us8.list-manage.com/subscribe/post?u=4c05f20503bc3a9d84d1a63c9&amp;id=488afa7633" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Email address.." required>
+			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">I Dare</button>
+			
+			</form> <!-- /Mailchimp -->
+	      </div>
+      </div>
+    </div> <!-- /optin --> 
 
-            <input type="hidden" name="meta_adtracking" value="FJ:_Pop-up" />
-            <input type="hidden" name="meta_message" value="1" />
-            <input type="hidden" name="meta_required" value="email" />
-
-            <input type="hidden" name="meta_tooltip" value="" />
-            </div>
-            <div id="af-form-1819965538" class="af-form"><div id="af-body-1819965538"  class="af-body af-standards">
-            <div class="af-element">
-            <div class="af-textWrap">
-              <div class="check">
-              <div class="inline">
-                  <i class="icon-arrow-right"></i><input class="text email" id="awf_field-60198821" type="text" name="email" value="" tabindex="500" placeholder="Your email..."  />
-                  <input class="amount" type="text" name="amount" value="$" />
-              </div>
-            </div><div class="af-clear"></div>
-            </div>
-            <div class="af-element buttonContainer">
-              <center>
-            <button name="submit" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">Cash My Check</button>
-              </center>
-            <div class="af-clear"></div>
-            </div>
-            </div>
-            </div>
-            </div>
-            <div style="display: none;"><img src="http://forms.aweber.com/form/displays.htm?id=jByMnJxsrKzMHA==" alt="" /></div>
-            </form>
-
-
-
-
-            <!-- <form>
-              <div class="check">
-                <div class="inline">
-                  <i class="icon-arrow-right"></i><input class="email" type="text" name="email" placeholder="Your email" />
-                  <input class="amount" type="text" name="amount" value="$" />
-                </div>
-              </div>
-              <center>
-              <button class="btn btn-primary btn-lg" href="#">Cash My Check</button>
-              </center>
-            </form> -->
           </div>
         </div>
       </div>

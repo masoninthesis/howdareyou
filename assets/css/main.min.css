@@ -6129,6 +6129,9 @@ p {
 /***********************/
 /* Footer */
 /***********************/
+.pad {
+  padding-bottom: 18px;
+}
 footer .upper-col {
   background: -webkit-linear-gradient(#3d0b5c, #263e52, #265248, #347d45);
   /* For Safari 5.1 to 6.0 */
@@ -6177,6 +6180,7 @@ footer .bottom-col {
   background-color: #fff;
   color: #3d0b5c;
   text-align: center;
+  margin-bottom: -40px;
 }
 footer ul {
   list-style-type: none;
