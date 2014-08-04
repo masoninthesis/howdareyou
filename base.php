@@ -68,7 +68,7 @@
         setTimeout(function() {
           showPopup();
           jQuery.cookie('foreverjobless', '1', { expires: 7 });
-        }, 120000);
+        }, 60000);
       }
     }
 
@@ -82,19 +82,21 @@
    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <button type="button" class="close" style="margin-right: 10px;margin-top: 5px;" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <br /><br />
-          <center>
-          <!-- <h3 class="modal-title" id="myModalLabel" style="margin-top: 15px;margin-bottom:0;">Redeem your blank check:</h3> -->
-          </center>
+          <!--<button type="button" class="close" style="margin-right: 10px;margin-top: 5px;" data-dismiss="modal" aria-hidden="true">&times;</button>-->
           <div class="modal-body">
-
-            <div class="alert-header col-sm-10 col-sm-offset-1"><!-- Optin -->
-      <div class="row">
-        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4>
-      </div>
+    			
+    			<div class="col-sm-10 col-sm-offset-1 modal-video"><!-- Video -->
+				 	<div class="row"> 
+					 	<center>
+					 		<iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/5tl43fy1m9?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
+					 		<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
+					 	</center>
+					</div>
+				</div> <!-- /Video -->
+    		</div>
+        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4><!-- optin -->
 	  <div class="row">
-	      <div class="top-optin col-sm-offset-4">
+	      <div class="top-optin col-sm-offset-3">
 	      
 	      <!-- Mailchimp -->
 			<form class="form-inline" id="before_header" action="//howdareyou.us8.list-manage.com/subscribe/post?u=4c05f20503bc3a9d84d1a63c9&amp;id=488afa7633" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -102,10 +104,8 @@
 			<button id="header-optin-click" name="submit" onClick="ga('send', 'event', 'optin', 'subscribe', 'header optin');" class="submit btn btn-primary btn-lg" type="submit" value="Submit" tabindex="501">I Dare</button>
 			
 			</form> <!-- /Mailchimp -->
-	      </div>
-      </div>
-    </div> <!-- /optin --> 
-
+	      </div><!-- /optin -->
+		  <br><br>
           </div>
         </div>
       </div>

@@ -6038,6 +6038,9 @@ p {
 /***********************/
 /* NavBar */
 /***********************/
+body {
+  border-top: 5px solid #3d0b5c;
+}
 .navbar {
   background-color: #fff;
 }
@@ -6200,4 +6203,10 @@ footer input {
 }
 footer .form-control {
   border: 1px solid #3d0b5c;
+}
+/***********************/
+/* Modal */
+/***********************/
+.modal-video {
+  padding-bottom: 16px;
 }
