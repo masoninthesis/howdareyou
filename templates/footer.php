@@ -39,10 +39,10 @@
         <div class="col-sm-12 bottom">
           <fieldset>
             <ul>
-              <li><a href="#">SmartKit</a></li> 
-              <li><a href="#">ML Design</a></li> 
-              <li><a href="#">My Story</a></li> 
-              <li><a href="#">Daily Dares</a></li> 
+              <li><a class="footer-links" href="#">SmartKit</a></li> 
+              <li><a class="footer-links" href="#">ML Design</a></li> 
+              <li><a class="footer-links" href="#">My Story</a></li> 
+              <li><a class="footer-links" href="#">Daily Dares</a></li> 
             </ul>
           </fieldset>
           <br />

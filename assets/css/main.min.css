@@ -5808,31 +5808,37 @@ button.close {
   content: "\e601";
 }
 @font-face {
-  font-family: "Avenir LT";
-  src: url('/howdareyoudotio/wp-content/themes/howdareyou/assets/fonts/AvenirLTStd-Light.otf') format('opentype');
-}
-@font-face {
   font-family: "Avenir Black";
-  src: url('/howdareyoudotio/wp-content/themes/howdareyou/assets/fonts/AvenirLTStd-Black.otf') format('opentype');
+  src: url('http://masonlawlor.com//howdareyoudotio/wp-content/themes/howdareyou/assets/fonts/AvenirLTStd-Black.otf') format('opentype');
 }
 @font-face {
   font-family: "BebasNeue";
   src: url('/howdareyoudotio/wp-content/themes/howdareyou/assets/fonts/BebasNeue.otf') format('opentype');
 }
+a {
+  text-decoration: underline;
+}
 body {
-  font-family: "Avenir LT", Helvetica, Arial, sans-serif !important;
+  font-family: Helvetica, Arial, sans-serif !important;
   font-size: 15px;
-  color: #666666;
+  color: #777;
   font-weight: 300;
   line-height: 1.6;
 }
-h4 {
-  font-weight: 300;
+h1 {
+  font-family: "BebasNeue", Helvetica, Arial, sans-serif !important;
+  color: #3D0B5C;
 }
 .optin-h4 {
   text-align: center;
   padding: 12px;
   margin-top: -8px;
+}
+.timestamp {
+  color: #3D0B5C;
+}
+ul a {
+  text-decoration: none;
 }
 /**************************************************************************/
 /* UI LESS */
