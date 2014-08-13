@@ -24,15 +24,14 @@
   <div class="col-sm-10 col-sm-offset-1"><!-- Video -->
 	  <div class="row"> 
 	    <center>
-	      <iframe onClick="ga('send', 'event', 'video', 'play', 'main video');" src="//fast.wistia.net/embed/iframe/5tl43fy1m9?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="668" height="376"></iframe>
-	      <script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
+	      <iframe src="//fast.wistia.net/embed/iframe/5tl43fy1m9?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="640" height="360"></iframe><script src="//fast.wistia.net/assets/external/iframe-api-v1.js"></script>
 	    </center>
     </div>
   </div> <!-- /Video -->
     
   <div class="alert-header col-sm-10 col-sm-offset-1"><!-- Optin -->
       <div class="row">
-        <h4 class="optin-h4">Subscribe below and I'll dare you to be great.</h4>
+        <h4 class="optin-h4">11 powerful lifehacks to your inbox, one day at a time.</h4>
       </div>
 	  <div class="row">
 	      <div class="top-optin col-sm-offset-4">
