@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: FJ Homepage
+Template Name: HDY Homepage
 */
 ?>
 
@@ -8,4 +8,3 @@ Template Name: FJ Homepage
 
 <br />
 
-<center><a href="#" class="btn btn-primary btn-lg" role="button">Podcast Coming Soon</a> <a href="http://foreverjobless.com/category/blog">Go to the Blog</a></center>
