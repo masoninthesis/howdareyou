@@ -1,3 +1,4 @@
+@import url(http://thecodeplayer.com/uploads/fonts/fontawesome/css/font-awesome.min.css);
 /**************************************************************************/
 /* Jackalope Import */
 /**************************************************************************/
@@ -5772,6 +5773,9 @@ button.close {
 /**************************************************************************/
 /* Typography LESS */
 /**************************************************************************/
+.hero h1 {
+  color: #fff;
+}
 @font-face {
   font-family: 'icomoon';
   src: url('http://foreverjobless.com/wp-content/themes/foreverjobless/assets/fonts/icomoon.eot?ncnykq');
@@ -5826,8 +5830,16 @@ body {
   line-height: 1.6;
 }
 h1 {
-  font-family: "BebasNeue", Helvetica, Arial, sans-serif !important;
-  color: #3D0B5C;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: #3d0b5d;
+  font-weight: 200;
+  font-size: 2em;
+}
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: #c7c0de;
+  font-weight: 400;
+  font-size: 1.15em;
 }
 .optin-h4 {
   text-align: center;
@@ -5966,6 +5978,78 @@ li ul.children li.bypostauthor {
   padding: 5px;
   height: 100px;
 }
+/*****************************/
+/* Squircles
+/*****************************/
+/*Importing custom fonts*/
+/*basic reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.icons {
+  width: 220px;
+  margin: 0 auto;
+}
+.icons i {
+  display: block;
+  font-size: 24px;
+  line-height: 50px;
+  width: 50px;
+  text-align: center;
+}
+.icons a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 12px;
+  position: relative;
+}
+/*Now we will create fish-eye shapes using pseudo elements and clip them to add a curve to the sides of the icons*/
+.icons a:before,
+.icons a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 100%;
+  /*circle*/
+  /*time to transform the circle into fish-eye shape. iOS7 style now.*/
+  transform: scaleX(2) scaleY(1.05);
+  /*clipping the left and right sides - 17px from the left and right*/
+  clip: rect(0, 33px, 50px, 17px);
+  /*pushing it behind the icon*/
+  z-index: -1;
+}
+/*duplicating the :before element and rotating it 90deg and swapping the X/Y transforms*/
+.icons a:after {
+  transform: scaleY(2) scaleX(1.05) rotate(90deg);
+}
+/*colors*/
+.tw {
+  background-color: #3B2F63;
+  background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+  background-image: radial-gradient(at 50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), radial-gradient(at right top, #794aa2 0%, rgba(121, 74, 162, 0) 90%);
+}
+.fb {
+  background: #3B5997;
+}
+.gp {
+  background: #DB4F48;
+}
+.ig {
+  background: #447397;
+}
+.li {
+  background: #007DB8;
+}
+.yt {
+  background: #D12E2E;
+}
 /**************************************************************************/
 /* Misc LESS */
 /**************************************************************************/
@@ -6044,6 +6128,16 @@ p {
 /***********************/
 /* NavBar */
 /***********************/
+img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+img:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
 body {
   border-top: 5px solid #3d0b5c;
 }
@@ -6090,6 +6184,9 @@ body {
     float: right;
   }
 }
+.navbar-header {
+  padding-top: 16px;
+}
 /***********************/
 /* Header */
 /***********************/
@@ -6111,7 +6208,15 @@ body {
   border-radius: 4px;
 }
 .hero {
-  background-color: #3d0b5c;
+  background-color: #3B2F63;
+  background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+  background-image: radial-gradient(at 50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), radial-gradient(at right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+  background-repeat: no-repeat;
+  background-size: 100% 1000px;
+  color: #c7c0de;
+  margin-top: 25px;
+  padding: 25px;
+  color: #fff;
 }
 /***********************/
 /* Sidebar */
@@ -6145,19 +6250,14 @@ body {
   padding-bottom: 18px;
 }
 footer .upper-col {
-  background: -webkit-linear-gradient(#3d0b5c, #263e52, #265248, #347d45);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#3d0b5c, #263e52, #265248, #347d45);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#3d0b5c, #263e52, #265248, #347d45);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#3d0b5c, #263e52, #265248, #347d45);
-  /* Standard syntax */
-  text-align: center;
+  background-color: #3B2F63;
+  background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+  background-image: radial-gradient(at 50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), radial-gradient(at right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+  background-repeat: no-repeat;
+  background-size: 100% 1000px;
+  color: #c7c0de;
   margin-top: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-top: 1px solid #e9e9e9;
+  padding: 25px;
   color: #fff;
 }
 footer .right {

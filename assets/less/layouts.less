@@ -5,6 +5,18 @@
 /***********************/
 /* NavBar */
 /***********************/
+img { 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);	
+}
+
+img:hover { 
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);	
+}
+
 body {
 	border-top: 5px solid #3d0b5c;
 }
@@ -53,10 +65,13 @@ body {
   }
 }
 
+.navbar-header {
+	padding-top: 16px;
+}
+
 /***********************/
 /* Header */
 /***********************/
-
 .alert-header {
 	  border:1px solid #3d0b5c;
 	  border-radius: 4px;
@@ -79,7 +94,15 @@ body {
 }
 
 .hero {
-	background-color: @brand-primary;
+	background-color: #3B2F63;
+	background-image: -webkit-radial-gradient(50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(right top, #794aa2 0%,rgba(121,74,162,0) 57%);
+	background-image: radial-gradient( at 50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at right top, #794aa2 0%,rgba(121,74,162,0) 57%);
+	background-repeat: no-repeat;
+	background-size: 100% 1000px;
+	color: #c7c0de;
+	margin-top: 25px;
+	padding: 25px;
+    color: #fff;
 }
 
 /***********************/
@@ -127,15 +150,14 @@ body {
 footer {
 
   .upper-col {
-    background: -webkit-linear-gradient(#3d0b5c,#263e52,#265248,#347d45); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(#3d0b5c,#263e52,#265248,#347d45); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#3d0b5c,#263e52,#265248,#347d45); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#3d0b5c,#263e52,#265248,#347d45); /* Standard syntax */
-    text-align: center;
-    margin-top: 25px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-top: 1px solid #e9e9e9;
+    background-color: #3B2F63;
+	background-image: -webkit-radial-gradient(50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(right top, #794aa2 0%,rgba(121,74,162,0) 57%);
+	background-image: radial-gradient( at 50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at right top, #794aa2 0%,rgba(121,74,162,0) 57%);
+	background-repeat: no-repeat;
+	background-size: 100% 1000px;
+	color: #c7c0de;
+	margin-top: 25px;
+	padding: 25px;
     color: #fff;
   }
   
