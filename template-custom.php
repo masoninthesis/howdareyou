@@ -8,9 +8,59 @@ Template Name: HDY Homepage
 
 <br />
 
-<h1>Squircles</h1>
+<h1>Apps</h1>
+	<div class="row icons">
+		<div class="col-sm-1">
+			<a href="#" class="squircle"><i class="fa fa-info-circle"></i></a>
+			<span>My Story</span> 
+		</div>
+		<div class="col-sm-1">
+			<a href="#" class="squircle"><i class="fa fa-facebook"></i></a>
+		</div>
+		<div class="col-sm-1">
+			<a href="#" class="squircle"><i class="fa fa-instagram"></i></a>
+		</div>
+		<div class="col-sm-1">
+			<a href="#" class="squircle"><i class="fa fa-spotify"></i></a>
+		</div>
+		<div class="col-sm-1">
+			<a href="#" class="squircle"><i class="fa fa-pinterest"></i></a>
+		</div>
+		<div class="col-sm-1">
+			<a href="#" class="squircle"><i class="fa fa-github"></i></a>
+		</div>
+		<div class="col-sm-1">
+			<a href="#" class="squircle"><i class="fa fa-google-plus-square"></i></a>
+		</div>
+		<div class="col-sm-1">
+			<a href="#" class="squircle"><i class="fa fa-linkedin"></i></a>
+		</div>
+		<div class="col-sm-1">
+			<a href="#" class="squircle"><i class="fa fa-angellist"></i></a>
+		</div>
+		<div class="col-sm-1">
+			<a href="#" class="squircle"><i class="fa fa-reddit"></i></a>
+		</div>
+	</div>
+
+<h1>Social</h1>
 <div class="icons">
-	<a href="#" class="tw"><i class="icon-twitter"></i></a>
-	<a href="#" class="fb"><i class="icon-facebook"></i></a>
-	<a href="#" class="gp"><i class="icon-google-plus"></i></a>
+	<a href="#"><i class="fa fa-twitter"></i></a>
+	<a href="#"><i class="fa fa-facebook"></i></a>
+	<a href="#"><i class="fa fa-instagram"></i></a>
+	<a href="#"><i class="fa fa-spotify"></i></a>
+	<a href="#"><i class="fa fa-pinterest"></i></a>
+	<a href="#"><i class="fa fa-github"></i></a>
+	<a href="#"><i class="fa fa-google-plus-square"></i></a>
+	<a href="#"><i class="fa fa-linkedin"></i></a>
+	<a href="#"><i class="fa fa-angellist"></i></a>
+	<a href="#"><i class="fa fa-reddit"></i></a>
+</div>
+
+<h1>Portfolio</h1>
+<div class="icons">
+	<a href="#"><i class="fa fa-behance"></i></a>
+	<a href="#"><i class="fa fa-dribbble"></i></a>
+	<a href="#"><i class="fa fa-pinterest"></i></a>
+	<a href="#"><i class="fa fa-instagram"></i></a>
 </div>

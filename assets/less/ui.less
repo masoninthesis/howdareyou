@@ -2,6 +2,18 @@
 /* UI LESS */
 /**************************************************************************/
 
+/****************************/
+/* Navbar */
+/****************************/
+
+.navbar-brand {
+	padding: 6px 40px;
+}
+
+/****************************/
+/* Misc */
+/****************************/
+
 .form-control:focus {
 	.box-shadow(none);
 }
@@ -48,61 +60,6 @@ li ul.children li.bypostauthor {
 	@media (min-width: @screen-sm-min) {
 		margin-left: 10px;
 }
-}
-
-/****************************/
-/* Check */
-/****************************/
-
-.check {
-	background-image: url('http://foreverjobless.com/wp-content/themes/foreverjobless/assets/img/check/popup-check(white)-1.jpg');
-	background-repeat: no-repeat;
-	background-position: -1px 50%;
-	margin-top: -15px;
-	width: 700px;
-	height: 300px;
-	position: relative;
-
-	input {
-		margin-top: 105px;
-		margin-left: 25px;
-	}
-	
-	.email {
-		border-top: 0;
-		border-left: 0;
-		border-bottom: 1px solid #bababa;
-		border-right: 1px solid #bababa;
-		width: 400px;
-	}
-
-	i {
-		position: absolute;
-		top: 111px;
-		left: 6px;
-		color: @brand-primary;
-		font-size: 18px;
-
-		-webkit-animation-name: blinker;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-
-    -moz-animation-name: blinker;
-    -moz-animation-duration: 1s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-
-    animation-name: blinker;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-	}
-
-	.amount {
-		margin-left: 15px;
-		width: 65px;
-	}
 }
 
 /****************************/
@@ -153,12 +110,11 @@ li ul.children li.bypostauthor {
 /*****************************/
 
 /*Importing custom fonts*/
-@import url(http://thecodeplayer.com/uploads/fonts/fontawesome/css/font-awesome.min.css);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 
 /*basic reset*/
 * {margin: 0; padding: 0;}
 .icons {
-	width: 220px;
 	margin: 0 auto;
 }
 .icons i {
@@ -167,13 +123,16 @@ li ul.children li.bypostauthor {
 	line-height: 50px; width: 50px;
 	text-align: center;
 }
-.icons a {
+.squircle {
 	text-decoration: none;
 	color: white;
 	display: inline-block;
 	margin: 10px;
 	border-radius: 12px;
 	position: relative;
+	background-color: #3B2F63;
+	background-image: -webkit-radial-gradient(50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(right top, #794aa2 0%,rgba(121,74,162,0) 57%);
+	background-image: radial-gradient( at 50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at right top, #794aa2 0%,rgba(121,74,162,0) 90%);
 }
 /*Now we will create fish-eye shapes using pseudo elements and clip them to add a curve to the sides of the icons*/
 .icons a:before, .icons a:after {
@@ -193,17 +152,11 @@ li ul.children li.bypostauthor {
 .icons a:after {
 	transform: scaleY(2) scaleX(1.05) rotate(90deg);
 }
-/*colors*/
-.tw {	
-	background-color: #3B2F63;
-	background-image: -webkit-radial-gradient(50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),-webkit-radial-gradient(right top, #794aa2 0%,rgba(121,74,162,0) 57%);
-	background-image: radial-gradient( at 50% top, rgba(84,90,182,0.6) 0%,rgba(84,90,182,0) 75%),radial-gradient( at right top, #794aa2 0%,rgba(121,74,162,0) 90%);
+/*content*/
+.icon-link {
+	text-align: center;
 }
-.fb {background: #3B5997;}
-.gp {background: #DB4F48;}
-.ig {background: #447397;}
-.li {background: #007DB8;}
-.yt {background: #D12E2E;}
+
 
 
 

@@ -1,4 +1,4 @@
-@import url(http://thecodeplayer.com/uploads/fonts/fontawesome/css/font-awesome.min.css);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
 /**************************************************************************/
 /* Jackalope Import */
 /**************************************************************************/
@@ -5855,6 +5855,15 @@ ul a {
 /**************************************************************************/
 /* UI LESS */
 /**************************************************************************/
+/****************************/
+/* Navbar */
+/****************************/
+.navbar-brand {
+  padding: 6px 40px;
+}
+/****************************/
+/* Misc */
+/****************************/
 .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -5895,52 +5904,6 @@ li ul.children li.bypostauthor {
 }
 }
 
-/****************************/
-/* Check */
-/****************************/
-.check {
-  background-image: url('http://foreverjobless.com/wp-content/themes/foreverjobless/assets/img/check/popup-check(white)-1.jpg');
-  background-repeat: no-repeat;
-  background-position: -1px 50%;
-  margin-top: -15px;
-  width: 700px;
-  height: 300px;
-  position: relative;
-}
-.check input {
-  margin-top: 105px;
-  margin-left: 25px;
-}
-.check .email {
-  border-top: 0;
-  border-left: 0;
-  border-bottom: 1px solid #bababa;
-  border-right: 1px solid #bababa;
-  width: 400px;
-}
-.check i {
-  position: absolute;
-  top: 111px;
-  left: 6px;
-  color: #3d0b5c;
-  font-size: 18px;
-  -webkit-animation-name: blinker;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-name: blinker;
-  -moz-animation-duration: 1s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
-  animation-name: blinker;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-.check .amount {
-  margin-left: 15px;
-  width: 65px;
-}
 /****************************/
 /* Comments Box */
 /****************************/
@@ -5988,7 +5951,6 @@ li ul.children li.bypostauthor {
   padding: 0;
 }
 .icons {
-  width: 220px;
   margin: 0 auto;
 }
 .icons i {
@@ -5998,13 +5960,16 @@ li ul.children li.bypostauthor {
   width: 50px;
   text-align: center;
 }
-.icons a {
+.squircle {
   text-decoration: none;
   color: white;
   display: inline-block;
   margin: 10px;
   border-radius: 12px;
   position: relative;
+  background-color: #3B2F63;
+  background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
+  background-image: radial-gradient(at 50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), radial-gradient(at right top, #794aa2 0%, rgba(121, 74, 162, 0) 90%);
 }
 /*Now we will create fish-eye shapes using pseudo elements and clip them to add a curve to the sides of the icons*/
 .icons a:before,
@@ -6029,26 +5994,9 @@ li ul.children li.bypostauthor {
 .icons a:after {
   transform: scaleY(2) scaleX(1.05) rotate(90deg);
 }
-/*colors*/
-.tw {
-  background-color: #3B2F63;
-  background-image: -webkit-radial-gradient(50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), -webkit-radial-gradient(right top, #794aa2 0%, rgba(121, 74, 162, 0) 57%);
-  background-image: radial-gradient(at 50% top, rgba(84, 90, 182, 0.6) 0%, rgba(84, 90, 182, 0) 75%), radial-gradient(at right top, #794aa2 0%, rgba(121, 74, 162, 0) 90%);
-}
-.fb {
-  background: #3B5997;
-}
-.gp {
-  background: #DB4F48;
-}
-.ig {
-  background: #447397;
-}
-.li {
-  background: #007DB8;
-}
-.yt {
-  background: #D12E2E;
+/*content*/
+.icon-link {
+  text-align: center;
 }
 /**************************************************************************/
 /* Misc LESS */
@@ -6138,11 +6086,9 @@ img:hover {
   -moz-filter: grayscale(0%);
   filter: grayscale(0%);
 }
-body {
-  border-top: 5px solid #3d0b5c;
-}
 .navbar {
   background-color: #fff;
+  margin-bottom: 0px;
 }
 .navbar-default {
   background-image: -webkit-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
@@ -6152,7 +6098,6 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-image: none;
   background-color: #fff;
-  padding-bottom: 5px;
   border: 0;
 }
 .navbar-brand,
@@ -6171,8 +6116,8 @@ body {
   background-color: transparent;
   color: #3d0b5c;
 }
-.navbar-brand {
-  padding-bottom: 15px;
+.navbar-nav {
+  padding-top: 8px;
 }
 @media (min-width: 768px) {
   #menu-mainnav > li > a {
@@ -6214,7 +6159,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 1000px;
   color: #c7c0de;
-  margin-top: 25px;
   padding: 25px;
   color: #fff;
 }
