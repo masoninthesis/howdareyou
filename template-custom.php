@@ -19,12 +19,12 @@ Template Name: HDY Homepage
 			<div class="btn-text"><h5>Monday</h5></div> 
 		</div>
 		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><img src="http://masonlawlor.com//howdareyoudotio/wp-content/themes/howdareyou/assets/img/crowdfundation-icon.png"></a></div>
-			<div class="btn-text" alt="CrowdFundation Post"><h5>Tuesday</h5></div> 
+			<div class="icon"><a href="#"><img src="http://masonlawlor.com//howdareyoudotio/wp-content/themes/howdareyou/assets/img/crowdfundation-icon.png" alt="CrowdFundation Post"></a></div>
+			<div class="btn-text"><h5>Tuesday</h5></div> 
 		</div>
 		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><img src="http://masonlawlor.com//howdareyoudotio/wp-content/themes/howdareyou/assets/img/jackalope-icon.png"></a></div>
-			<div class="btn-text" alt="Jackalope Post"><h5>Wednesday</h5></div> 
+			<div class="icon"><a href="#"><img src="http://masonlawlor.com//howdareyoudotio/wp-content/themes/howdareyou/assets/img/jackalope-icon.png" alt="Jackalope Post"></a></div>
+			<div class="btn-text"><h5>Wednesday</h5></div> 
 		</div>
 		<div class="col-md-2 col-sm-4 col-sm-6">
 			<div class="icon"><a href="#"><img src="http://masonlawlor.com//howdareyoudotio/wp-content/themes/howdareyou/assets/img/hdy-icon.png" alt="HowDareYou Lifehack or Guest Post"></a></div>
@@ -41,19 +41,19 @@ Template Name: HDY Homepage
 <h1><i class="fa fa-info-circle vert-top"></i> Content Schedule</h1><br>
 	<div class="row icons">
 		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><i class="fa fa-info-circle"></i></a></div>
-			<div class="btn-text"><h5>My Story</h5></div> 
+			<a href="#"><i class="fa fa-info-circle"></i></a></div>
+			<div class="btn-text"><h5>My Story</h5>
 		</div>
 		<div class="col-md-2 col-sm-4 col-sm-6">
 			<div class="icon"><a href="#"><i class="fa fa-facebook"></i></a></div>
 			<div class="btn-text"><h5>Facebook</h5></div> 
 		</div>
 		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><i class="fa fa-instagram"></a></div>
+			<div class="icon"><a href="#"><i class="fa fa-instagram"></i></a></div>
 			<div class="btn-text" alt="CrowdFundation Post"><h5>Instagram</h5></div> 
 		</div>
 		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><i class="fa fa-spotify"></a></div>
+			<div class="icon"><a href="#"><i class="fa fa-spotify"></i></a></div>
 			<div class="btn-text" alt="Jackalope Post"><h5>Spotify</h5></div> 
 		</div>
 		<div class="col-md-2 col-sm-4 col-sm-6">
@@ -61,7 +61,7 @@ Template Name: HDY Homepage
 			<div class="btn-text"><h5>Pintrest</h5></div> 
 		</div>
 		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><i class="fa fa-google-plus-square"></a></div>
+			<div class="icon"><a href="#"><i class="fa fa-google-plus-square"></i></a></div>
 			<div class="btn-text"><h5>Google+</h5></div> 
 		</div>
 	</div>
@@ -70,36 +70,24 @@ Template Name: HDY Homepage
 
 <h1>Apps</h1>
 	<div class="row icons">
-		<div class="col-sm-1">
-			<a href="#" class="squircle"><i class="fa fa-info-circle"></i></a>
-			<h5> Story</h5> 
+		<div class="col-sm-2">
+			<div class="icon"><a href="#" class="squircle"><i class="fa fa-info-circle"></i></a></div>
+			<div class="btn-text"><h5> Story</h5></div>
 		</div>
-		<div class="col-sm-1">
+		<div class="col-sm-2">
 			<a href="#" class="squircle"><i class="fa fa-facebook"></i></a>
 		</div>
-		<div class="col-sm-1">
+		<div class="col-sm-2">
 			<a href="#" class="squircle"><i class="fa fa-instagram"></i></a>
 		</div>
-		<div class="col-sm-1">
+		<div class="col-sm-2">
 			<a href="#" class="squircle"><i class="fa fa-spotify"></i></a>
 		</div>
-		<div class="col-sm-1">
+		<div class="col-sm-2">
 			<a href="#" class="squircle"><i class="fa fa-pinterest"></i></a>
 		</div>
-		<div class="col-sm-1">
+		<div class="col-sm-2">
 			<a href="#" class="squircle"><i class="fa fa-github"></i></a>
-		</div>
-		<div class="col-sm-1">
-			<a href="#" class="squircle"><i class="fa fa-google-plus-square"></i></a>
-		</div>
-		<div class="col-sm-1">
-			<a href="#" class="squircle"><i class="fa fa-linkedin"></i></a>
-		</div>
-		<div class="col-sm-1">
-			<a href="#" class="squircle"><i class="fa fa-angellist"></i></a>
-		</div>
-		<div class="col-sm-1">
-			<a href="#" class="squircle"><i class="fa fa-reddit"></i></a>
 		</div>
 	</div>
 
