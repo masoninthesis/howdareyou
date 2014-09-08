@@ -5855,6 +5855,11 @@ ul a {
 /**************************************************************************/
 /* UI LESS */
 /**************************************************************************/
+.vert-top {
+  vertical-align: top;
+  color: #3d0b5c;
+  font-size: 14px;
+}
 /****************************/
 /* Navbar */
 /****************************/
@@ -5960,6 +5965,9 @@ li ul.children li.bypostauthor {
   width: 50px;
   text-align: center;
 }
+.icons img {
+  margin: 0 auto;
+}
 .squircle {
   text-decoration: none;
   color: white;
@@ -5997,6 +6005,18 @@ li ul.children li.bypostauthor {
 /*content*/
 .icon-link {
   text-align: center;
+}
+.icon {
+  margin-left: 7px;
+}
+.btn-text {
+  margin-top: -10px;
+  text-align: center;
+}
+.content-sched .btn-text {
+  margin-top: -2px;
+  text-align: center;
+  padding-left: 4px;
 }
 /**************************************************************************/
 /* Misc LESS */
@@ -6076,7 +6096,7 @@ p {
 /***********************/
 /* NavBar */
 /***********************/
-img {
+.navbar-brand img {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   filter: grayscale(100%);
