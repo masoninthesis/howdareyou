@@ -37,59 +37,36 @@ Template Name: HDY Homepage
 	</div>
 	
 <hr>
-
-<h1><i class="fa fa-info-circle vert-top"></i> Content Schedule</h1><br>
+	
+<h1><i class="fa fa-info-circle vert-top"></i> My Routine</h1>
 	<div class="row icons">
-		<div class="col-md-2 col-sm-4 col-sm-6">
-			<a href="#"><i class="fa fa-info-circle"></i></a></div>
-			<div class="btn-text"><h5>My Story</h5>
+		<div class="col-sm-2">
+			<div class="icon"><a href="#" class="squircle"><i class="fa fa-power-off"></i></a></div>
+			<div class="btn-text"><h5> Bootup</h5></div>
 		</div>
-		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><i class="fa fa-facebook"></i></a></div>
-			<div class="btn-text"><h5>Facebook</h5></div> 
+		<div class="col-sm-2">
+			<div class="icon"><a href="#" class="squircle"><i class="fa fa-bookmark"></i></a></div>
+			<div class="btn-text"><h5> Consume</h5></div>
 		</div>
-		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><i class="fa fa-instagram"></i></a></div>
-			<div class="btn-text" alt="CrowdFundation Post"><h5>Instagram</h5></div> 
+		<div class="col-sm-2">
+			<div class="icon"><a href="#" class="squircle"><i class="fa fa-spinner"></i></a></div>
+			<div class="btn-text"><h5> Create</h5></div>
 		</div>
-		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><i class="fa fa-spotify"></i></a></div>
-			<div class="btn-text" alt="Jackalope Post"><h5>Spotify</h5></div> 
+		<div class="col-sm-2">
+			<div class="icon"><a href="#" class="squircle"><i class="fa fa-lemon-o"></i></a></div>
+			<div class="btn-text"><h5> Cook</h5></div>
 		</div>
-		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><i class="fa fa-pinterest"></i></a></div>
-			<div class="btn-text"><h5>Pintrest</h5></div> 
+		<div class="col-sm-2">
+			<div class="icon"><a href="#" class="squircle"><i class="fa fa-child"></i></a></div>
+			<div class="btn-text"><h5> Workout</h5></div>
 		</div>
-		<div class="col-md-2 col-sm-4 col-sm-6">
-			<div class="icon"><a href="#"><i class="fa fa-google-plus-square"></i></a></div>
-			<div class="btn-text"><h5>Google+</h5></div> 
+		<div class="col-sm-2">
+			<div class="icon"><a href="#" class="squircle"><i class="fa fa-power-off"></i></a></div>
+			<div class="btn-text"><h5> Shutdown</h5></div>
 		</div>
 	</div>
 	
 <hr>
-
-<h1>Apps</h1>
-	<div class="row icons">
-		<div class="col-sm-2">
-			<div class="icon"><a href="#" class="squircle"><i class="fa fa-info-circle"></i></a></div>
-			<div class="btn-text"><h5> Story</h5></div>
-		</div>
-		<div class="col-sm-2">
-			<a href="#" class="squircle"><i class="fa fa-facebook"></i></a>
-		</div>
-		<div class="col-sm-2">
-			<a href="#" class="squircle"><i class="fa fa-instagram"></i></a>
-		</div>
-		<div class="col-sm-2">
-			<a href="#" class="squircle"><i class="fa fa-spotify"></i></a>
-		</div>
-		<div class="col-sm-2">
-			<a href="#" class="squircle"><i class="fa fa-pinterest"></i></a>
-		</div>
-		<div class="col-sm-2">
-			<a href="#" class="squircle"><i class="fa fa-github"></i></a>
-		</div>
-	</div>
 
 <h1>Social</h1>
 <div class="icons">
