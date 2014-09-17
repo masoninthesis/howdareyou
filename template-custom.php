@@ -19,28 +19,28 @@ Template Name: HDY Homepage
 <h1><i class="fa fa-info-circle vert-top" id="myToolTip1" data-toggle="tooltip" data-placement="top" title="If you want to plug into my mind, this is where you start"></i> About Me</h1>
 	<div class="row icons">
 		<div class="col-md-2 col-sm-4 col-xs-6">
-			<div class="icon"><a href="#" class="squircle"><i class="fa fa-paragraph"></i></a></div>
-			<div class="btn-text"><h5>Top Posts</h5></div>
+			<div class="icon"><a href="http://howdareyou.io/man-ifesto/" class="squircle"><i class="fa fa-paragraph"></i></a></div>
+			<div class="btn-text"><a href="http://howdareyou.io/man-ifesto/"><h5>Top Posts</h5></a></div>
 		</div>
 		<div class="col-md-2 col-sm-4 col-xs-6">
-			<div class="icon"><a href="#" class="squircle"><i class="fa fa-book"></i></a></div>
-			<div class="btn-text"><h5>Library</h5></div>
+			<div class="icon"><a href="http://howdareyou.io/my-library/" class="squircle"><i class="fa fa-book"></i></a></div>
+			<div class="btn-text"><a href="http://howdareyou.io/my-library/"><h5>Library</h5></a></div>
 		</div>
 		<div class="col-md-2 col-sm-4 col-xs-6">
-			<div class="icon"><a href="#" class="squircle"><i class="fa fa-th-large"></i></a></div>
-			<div class="btn-text"><h5>Portfolio</h5></div>
+			<div class="icon"><a href="http://howdareyou.io/portfolio/" class="squircle"><i class="fa fa-th-large"></i></a></div>
+			<div class="btn-text"><a href="http://howdareyou.io/portfolio/"><h5>Portfolio</h5></a></div>
 		</div>
 		<div class="col-md-2 col-sm-4 col-xs-6">
-			<div class="icon"><a href="#" class="squircle" id="myToolTip4" data-toggle="tooltip" data-placement="top" title="Subscribe to unlock"><i class="fa fa-lock"></i></a></div>
-			<div class="btn-text"><h5>Lifehacks</h5></div>
+			<div class="icon"><a href="http://howdareyou.io/category/i-dare-you/" class="squircle" id="myToolTip4" data-toggle="tooltip" data-placement="top" title="Subscribe to unlock"><i class="fa fa-lock"></i></a></div>
+			<div class="btn-text"><a href="http://howdareyou.io/category/i-dare-you/"><h5>Lifehacks</h5></a></div>
 		</div>
 		<div class="col-md-2 col-sm-4 col-xs-6">
 			<div class="icon"><a href="#" class="squircle" id="myToolTip5" data-toggle="tooltip" data-placement="top" title="Subscribe to unlock"><i class="fa fa-lock"></i></a></div>
 			<div class="btn-text"><h5>Plugins</h5></div>
 		</div>
 		<div class="col-md-2 col-sm-4 col-xs-6">
-			<div class="icon"><a href="#" class="squircle"><i class="fa fa-ellipsis-h"></i></a></div>
-			<div class="btn-text"><h5>More</h5></div>
+			<div class="icon"><a href="http://howdareyou.io/about-me/" class="squircle"><i class="fa fa-ellipsis-h"></i></a></div>
+			<div class="btn-text"><a href="http://howdareyou.io/about-me/"><h5>More</h5></a></div>
 		</div>
 	</div>
 	
