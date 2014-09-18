@@ -5912,6 +5912,9 @@ li ul.children li.bypostauthor {
 .depth-3 {
   border-left: 0;
 }
+.badge {
+  background-color: #3d0b5c;
+}
 /****************************/
 /* Optin */
 /****************************/
@@ -6209,6 +6212,10 @@ img:hover {
 .hero img {
   margin-left: 4px;
 }
+.page-header {
+  border-bottom-style: inset;
+  border-bottom-width: 1px;
+}
 /***********************/
 /* Sidebar */
 /***********************/
@@ -6309,4 +6316,24 @@ footer .form-control {
 /***********************/
 .modal-video {
   padding-bottom: 16px;
+}
+/***********************/
+/* Accordian.js */
+/***********************/
+.panel p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.fa {
+  font-size: 14px;
+  vertical-align: middle;
+  margin-top: -2px;
+  color: #3d0b5c;
+}
+.panel-default > .panel-heading {
+  color: #333333;
+  background-color: #fff;
+  border: 1px solid #794aa2;
 }
