@@ -18,7 +18,10 @@ Template Name: Routine: Bootup
 	});
 </script>
 
-<p></p>
+<ul class="pager">
+  <li class="previous"><a href="http://howdareyou.io/">&larr; Dashboard</a></li>
+  <li class="next"><a href="#">Consumption &rarr;</a></li>
+</ul>
 
 <div class="panel-group" id="accordion">
   <div class="panel panel-default">
@@ -38,7 +41,7 @@ Template Name: Routine: Bootup
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
           <i class="fa fa-sun-o"></i> Dream Journal
         </a>
       </h4>
@@ -52,7 +55,7 @@ Template Name: Routine: Bootup
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
           <i class="fa fa-ban"></i> NotToDo.app
         </a>
       </h4>
@@ -66,7 +69,7 @@ Template Name: Routine: Bootup
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
           <i class="fa fa-compass"></i> Affirmations.app
         </a>
       </h4>
@@ -80,7 +83,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
           <i class="fa fa-facebook-square"></i> Facebook <span class="badge">5 min</span>
         </a>
       </h4>
@@ -94,7 +97,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
           <i class="fa fa-twitter-square"></i> Twitter <span class="badge">5 min</span>
         </a>
       </h4>
@@ -108,7 +111,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
           <i class="fa fa-hacker-news"></i> TheNews.im <span class="badge">5 min</span>
         </a>
       </h4>
@@ -122,7 +125,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
           <i class="fa fa-envelope-square"></i> Email <span class="badge">5 min</span>
         </a>
       </h4>
@@ -136,7 +139,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
          <i class="fa fa-bookmark"></i> Bookmark/Index
         </a>
       </h4>
@@ -150,7 +153,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
          <i class="fa fa-drupal"></i> Piss
         </a>
       </h4>
@@ -164,7 +167,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
          <i class="fa fa-child"></i> 25 Pushups + 100 Bicycle Crunches
         </a>
       </h4>
@@ -178,7 +181,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">
          <i class="fa fa-th-list"></i> 5 Min Journal
         </a>
       </h4>
@@ -192,7 +195,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThirteen">
          <i class="fa fa-apple"></i> Breakfast
         </a>
       </h4>
@@ -206,7 +209,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFourteen">
          <i class="fa fa-video-camera"></i> Vlog
         </a>
       </h4>
@@ -220,7 +223,7 @@ Template Name: Routine: Bootup
 <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFifteen">
          <i class="fa fa-check-square"></i> ToDo.app
         </a>
       </h4>
@@ -232,6 +235,11 @@ Template Name: Routine: Bootup
     </div>
   </div>
 </div>
+
+<ul class="pager">
+  <li class="previous"><a href="http://howdareyou.io/">&larr; Dashboard</a></li>
+  <li class="next"><a href="#">Consumption &rarr;</a></li>
+</ul>
 
 <!-- pop-up modal -->
 <script type="text/javascript"

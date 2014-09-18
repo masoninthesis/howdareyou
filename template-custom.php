@@ -79,8 +79,8 @@ Template Name: HDY Homepage
 <h1><i class="fa fa-info-circle vert-top" id="myToolTip3" data-toggle="tooltip" data-placement="top" title="These are the vital elements to my days"></i> Daily Routine</h1>
 	<div class="row icons">
 		<div class="col-md-2 col-sm-4 col-xs-6">
-			<div class="icon"><a href="#" class="squircle"><i class="fa fa-power-off"></i></a></div>
-			<div class="btn-text"><h5>Bootup</h5></div>
+			<div class="icon"><a href="http://howdareyou.io/daily-routine-bootup/" class="squircle"><i class="fa fa-power-off"></i></a></div>
+			<div class="btn-text"><a href="http://howdareyou.io/daily-routine-bootup/"><h5>Bootup</h5></a></div>
 		</div>
 		<div class="col-md-2 col-sm-4 col-xs-6">
 			<div class="icon"><a href="#" class="squircle"><i class="fa fa-bookmark"></i></a></div>

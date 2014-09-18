@@ -6323,10 +6323,10 @@ footer .form-control {
 .panel p {
   margin: 0;
 }
-a {
+.panel a {
   text-decoration: none;
 }
-.fa {
+.panel .fa {
   font-size: 14px;
   vertical-align: middle;
   margin-top: -2px;
