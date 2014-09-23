@@ -69,14 +69,14 @@ Template Name: Routine: Bootup
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-          <i class="fa fa-compass"></i> Affirmations.app
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">
+         <i class="fa fa-th-list"></i> 5 Min Journal
         </a>
       </h4>
     </div>
-    <div id="collapseFour" class="panel-collapse collapse">
+    <div id="collapseTwelve" class="panel-collapse collapse">
       <div class="panel-body">
-        <a href="#">My affirmations</a>. Perspective is one of the most powerful forces in this life. There's what happens in life, and there's the story you tell about it. The story you tell about your life makes all the difference. Write a story that can have powerful transformation in yourself and tell it to yourself everyday. If you find yourself not believing it, it's time to reevaluate who you've become. 
+        This is my favorite behavioral programming app. It costs $2.99, but it's life changing. It's one of the few paid apps I own. Download <a href="#">here</a>.
       </div>
     </div>
   </div>
@@ -175,20 +175,6 @@ Template Name: Routine: Bootup
     <div id="collapseEleven" class="panel-collapse collapse">
       <div class="panel-body">
         Just to get the blood flowing.
-      </div>
-    </div>
-  </div>
-<div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwelve">
-         <i class="fa fa-th-list"></i> 5 Min Journal
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwelve" class="panel-collapse collapse">
-      <div class="panel-body">
-        This is my favorite behavioral programming app. It costs $2.99, but it's life changing. It's one of the few paid apps I own. Download <a href="#">here</a>.
       </div>
     </div>
   </div>
