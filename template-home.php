@@ -160,7 +160,7 @@ Template Name: HDY Homepage
 		</div>
 	</div>
 
-<!-- pop-up modal -->
+<!-- pop-up script -->
 <script type="text/javascript"
         src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.3.1/jquery.cookie.min.js"></script>
   <script type="text/javascript">
@@ -181,9 +181,10 @@ Template Name: HDY Homepage
       timeOut();
       stickyElement();
     });
-
   </script>
+<!-- /pop-up script -->
 
+<!-- popup modal -->
    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
